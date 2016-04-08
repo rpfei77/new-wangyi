@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3753F2F71CB4DA83008CC0C4 /* HMHeadLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3753F2F61CB4DA83008CC0C4 /* HMHeadLine.m */; settings = {ASSET_TAGS = (); }; };
+		3753F2FA1CB4EB18008CC0C4 /* NSObject+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 3753F2F91CB4EB18008CC0C4 /* NSObject+Log.m */; settings = {ASSET_TAGS = (); }; };
+		3753F2FD1CB4F469008CC0C4 /* HMHeadLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3753F2FC1CB4F469008CC0C4 /* HMHeadLineCell.m */; settings = {ASSET_TAGS = (); }; };
+		375947DB1CB76347005E8A97 /* HMNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 375947DA1CB76347005E8A97 /* HMNewsCell.m */; settings = {ASSET_TAGS = (); }; };
+		375947DF1CB7B6E9005E8A97 /* HMNewsChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 375947DE1CB7B6E9005E8A97 /* HMNewsChannel.m */; settings = {ASSET_TAGS = (); }; };
+		375947E11CB7BA60005E8A97 /* topic_news.json in Resources */ = {isa = PBXBuildFile; fileRef = 375947E01CB7BA60005E8A97 /* topic_news.json */; settings = {ASSET_TAGS = (); }; };
+		375947E41CB7BD00005E8A97 /* HMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375947E31CB7BD00005E8A97 /* HMHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		375947E61CB7BD13005E8A97 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375947E51CB7BD13005E8A97 /* Home.storyboard */; settings = {ASSET_TAGS = (); }; };
+		375947E91CB7C344005E8A97 /* HMChannelLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 375947E81CB7C344005E8A97 /* HMChannelLable.m */; settings = {ASSET_TAGS = (); }; };
+		378969031CB6A80000727E33 /* HMNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 378969021CB6A80000727E33 /* HMNewsController.m */; settings = {ASSET_TAGS = (); }; };
+		378969061CB6A81400727E33 /* HMNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 378969051CB6A81400727E33 /* HMNews.m */; settings = {ASSET_TAGS = (); }; };
 		37917CA51CB38EB0005A862D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37917CA41CB38EB0005A862D /* main.m */; };
 		37917CA81CB38EB0005A862D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37917CA71CB38EB0005A862D /* AppDelegate.m */; };
-		37917CAB1CB38EB0005A862D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37917CAA1CB38EB0005A862D /* ViewController.m */; };
-		37917CAE1CB38EB0005A862D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37917CAC1CB38EB0005A862D /* Main.storyboard */; };
 		37917CB01CB38EB0005A862D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37917CAF1CB38EB0005A862D /* Assets.xcassets */; };
 		37917CB31CB38EB0005A862D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37917CB11CB38EB0005A862D /* LaunchScreen.storyboard */; };
 		37917CBE1CB38EB0005A862D /* new_wangyiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37917CBD1CB38EB0005A862D /* new_wangyiTests.m */; };
 		37917CC91CB38EB0005A862D /* new_wangyiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37917CC81CB38EB0005A862D /* new_wangyiUITests.m */; };
+		37917CD71CB39F99005A862D /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37917CD61CB39F99005A862D /* News.storyboard */; settings = {ASSET_TAGS = (); }; };
+		37917CDA1CB3A07F005A862D /* HMNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37917CD91CB3A07F005A862D /* HMNewsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		37917CFA1CB3ADFE005A862D /* HMNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 37917CF91CB3ADFE005A862D /* HMNetworkTool.m */; settings = {ASSET_TAGS = (); }; };
+		F8FDDF4A45B68DA95778AEF2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F0253E8638046C3691E67FE /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +48,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3753F2F51CB4DA83008CC0C4 /* HMHeadLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHeadLine.h; sourceTree = "<group>"; };
+		3753F2F61CB4DA83008CC0C4 /* HMHeadLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMHeadLine.m; sourceTree = "<group>"; };
+		3753F2F81CB4EB18008CC0C4 /* NSObject+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Log.h"; sourceTree = "<group>"; };
+		3753F2F91CB4EB18008CC0C4 /* NSObject+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Log.m"; sourceTree = "<group>"; };
+		3753F2FB1CB4F469008CC0C4 /* HMHeadLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHeadLineCell.h; sourceTree = "<group>"; };
+		3753F2FC1CB4F469008CC0C4 /* HMHeadLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMHeadLineCell.m; sourceTree = "<group>"; };
+		375947D91CB76347005E8A97 /* HMNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMNewsCell.h; sourceTree = "<group>"; };
+		375947DA1CB76347005E8A97 /* HMNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMNewsCell.m; sourceTree = "<group>"; };
+		375947DD1CB7B6E9005E8A97 /* HMNewsChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMNewsChannel.h; sourceTree = "<group>"; };
+		375947DE1CB7B6E9005E8A97 /* HMNewsChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMNewsChannel.m; sourceTree = "<group>"; };
+		375947E01CB7BA60005E8A97 /* topic_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_news.json; sourceTree = "<group>"; };
+		375947E21CB7BD00005E8A97 /* HMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHomeViewController.h; sourceTree = "<group>"; };
+		375947E31CB7BD00005E8A97 /* HMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMHomeViewController.m; sourceTree = "<group>"; };
+		375947E51CB7BD13005E8A97 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		375947E71CB7C344005E8A97 /* HMChannelLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMChannelLable.h; sourceTree = "<group>"; };
+		375947E81CB7C344005E8A97 /* HMChannelLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMChannelLable.m; sourceTree = "<group>"; };
+		378969011CB6A80000727E33 /* HMNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMNewsController.h; sourceTree = "<group>"; };
+		378969021CB6A80000727E33 /* HMNewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMNewsController.m; sourceTree = "<group>"; };
+		378969041CB6A81400727E33 /* HMNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMNews.h; sourceTree = "<group>"; };
+		378969051CB6A81400727E33 /* HMNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMNews.m; sourceTree = "<group>"; };
 		37917CA01CB38EB0005A862D /* new－wangyi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "new－wangyi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37917CA41CB38EB0005A862D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		37917CA61CB38EB0005A862D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37917CA71CB38EB0005A862D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		37917CA91CB38EB0005A862D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		37917CAA1CB38EB0005A862D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		37917CAD1CB38EB0005A862D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37917CAF1CB38EB0005A862D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37917CB21CB38EB0005A862D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37917CB41CB38EB0005A862D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +81,14 @@
 		37917CC41CB38EB0005A862D /* new－wangyiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "new－wangyiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37917CC81CB38EB0005A862D /* new_wangyiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = new_wangyiUITests.m; sourceTree = "<group>"; };
 		37917CCA1CB38EB0005A862D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37917CD61CB39F99005A862D /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = News.storyboard; path = ../News.storyboard; sourceTree = "<group>"; };
+		37917CD81CB3A07F005A862D /* HMNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMNewsViewController.h; sourceTree = "<group>"; };
+		37917CD91CB3A07F005A862D /* HMNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMNewsViewController.m; sourceTree = "<group>"; };
+		37917CF81CB3ADFE005A862D /* HMNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMNetworkTool.h; sourceTree = "<group>"; };
+		37917CF91CB3ADFE005A862D /* HMNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMNetworkTool.m; sourceTree = "<group>"; };
+		79B60A0B1094B11FEA9EF769 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8D100FD4A76AA04A2002A3FF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9F0253E8638046C3691E67FE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8FDDF4A45B68DA95778AEF2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +117,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3753F2F41CB4DA41008CC0C4 /* HeadLine */ = {
+			isa = PBXGroup;
+			children = (
+				3753F2F51CB4DA83008CC0C4 /* HMHeadLine.h */,
+				3753F2F61CB4DA83008CC0C4 /* HMHeadLine.m */,
+				37917CD81CB3A07F005A862D /* HMNewsViewController.h */,
+				37917CD91CB3A07F005A862D /* HMNewsViewController.m */,
+				3753F2FB1CB4F469008CC0C4 /* HMHeadLineCell.h */,
+				3753F2FC1CB4F469008CC0C4 /* HMHeadLineCell.m */,
+			);
+			name = HeadLine;
+			sourceTree = "<group>";
+		};
+		375947DC1CB7B6AE005E8A97 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				375947DD1CB7B6E9005E8A97 /* HMNewsChannel.h */,
+				375947DE1CB7B6E9005E8A97 /* HMNewsChannel.m */,
+				375947E21CB7BD00005E8A97 /* HMHomeViewController.h */,
+				375947E31CB7BD00005E8A97 /* HMHomeViewController.m */,
+				375947E51CB7BD13005E8A97 /* Home.storyboard */,
+				375947E71CB7C344005E8A97 /* HMChannelLable.h */,
+				375947E81CB7C344005E8A97 /* HMChannelLable.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		378969001CB679A100727E33 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				37917CD61CB39F99005A862D /* News.storyboard */,
+				378969011CB6A80000727E33 /* HMNewsController.h */,
+				378969021CB6A80000727E33 /* HMNewsController.m */,
+				378969041CB6A81400727E33 /* HMNews.h */,
+				378969051CB6A81400727E33 /* HMNews.m */,
+				375947D91CB76347005E8A97 /* HMNewsCell.h */,
+				375947DA1CB76347005E8A97 /* HMNewsCell.m */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
 		37917C971CB38EB0005A862D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +165,8 @@
 				37917CBC1CB38EB0005A862D /* new－wangyiTests */,
 				37917CC71CB38EB0005A862D /* new－wangyiUITests */,
 				37917CA11CB38EB0005A862D /* Products */,
+				D689B36CAEC86EB3B05B8677 /* Pods */,
+				3A7BDF92A8957EDD8DA3A01D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +183,12 @@
 		37917CA21CB38EB0005A862D /* new－wangyi */ = {
 			isa = PBXGroup;
 			children = (
+				375947DC1CB7B6AE005E8A97 /* Home */,
+				378969001CB679A100727E33 /* News */,
+				3753F2F41CB4DA41008CC0C4 /* HeadLine */,
+				37917CFB1CB3AE0D005A862D /* Tool */,
 				37917CA61CB38EB0005A862D /* AppDelegate.h */,
 				37917CA71CB38EB0005A862D /* AppDelegate.m */,
-				37917CA91CB38EB0005A862D /* ViewController.h */,
-				37917CAA1CB38EB0005A862D /* ViewController.m */,
-				37917CAC1CB38EB0005A862D /* Main.storyboard */,
 				37917CAF1CB38EB0005A862D /* Assets.xcassets */,
 				37917CB11CB38EB0005A862D /* LaunchScreen.storyboard */,
 				37917CB41CB38EB0005A862D /* Info.plist */,
@@ -117,6 +200,7 @@
 		37917CA31CB38EB0005A862D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				375947E01CB7BA60005E8A97 /* topic_news.json */,
 				37917CA41CB38EB0005A862D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +224,34 @@
 			path = "new－wangyiUITests";
 			sourceTree = "<group>";
 		};
+		37917CFB1CB3AE0D005A862D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				3753F2F81CB4EB18008CC0C4 /* NSObject+Log.h */,
+				3753F2F91CB4EB18008CC0C4 /* NSObject+Log.m */,
+				37917CF81CB3ADFE005A862D /* HMNetworkTool.h */,
+				37917CF91CB3ADFE005A862D /* HMNetworkTool.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		3A7BDF92A8957EDD8DA3A01D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F0253E8638046C3691E67FE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D689B36CAEC86EB3B05B8677 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D100FD4A76AA04A2002A3FF /* Pods.debug.xcconfig */,
+				79B60A0B1094B11FEA9EF769 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37917CCD1CB38EB0005A862D /* Build configuration list for PBXNativeTarget "new－wangyi" */;
 			buildPhases = (
+				DEE1393CB0ED01374031EC85 /* Check Pods Manifest.lock */,
 				37917C9C1CB38EB0005A862D /* Sources */,
 				37917C9D1CB38EB0005A862D /* Frameworks */,
 				37917C9E1CB38EB0005A862D /* Resources */,
+				9EBDA597C967BC0DB1A8D15C /* Embed Pods Frameworks */,
+				4C8F09BD3077F6DAF6222682 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +317,7 @@
 		37917C981CB38EB0005A862D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HM;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "大米";
 				TargetAttributes = {
@@ -244,8 +360,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				37917CB31CB38EB0005A862D /* LaunchScreen.storyboard in Resources */,
+				375947E61CB7BD13005E8A97 /* Home.storyboard in Resources */,
+				37917CD71CB39F99005A862D /* News.storyboard in Resources */,
+				375947E11CB7BA60005E8A97 /* topic_news.json in Resources */,
 				37917CB01CB38EB0005A862D /* Assets.xcassets in Resources */,
-				37917CAE1CB38EB0005A862D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +383,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C8F09BD3077F6DAF6222682 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EBDA597C967BC0DB1A8D15C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEE1393CB0ED01374031EC85 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		37917C9C1CB38EB0005A862D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37917CAB1CB38EB0005A862D /* ViewController.m in Sources */,
+				3753F2F71CB4DA83008CC0C4 /* HMHeadLine.m in Sources */,
+				3753F2FA1CB4EB18008CC0C4 /* NSObject+Log.m in Sources */,
 				37917CA81CB38EB0005A862D /* AppDelegate.m in Sources */,
+				378969031CB6A80000727E33 /* HMNewsController.m in Sources */,
+				375947E91CB7C344005E8A97 /* HMChannelLable.m in Sources */,
+				37917CFA1CB3ADFE005A862D /* HMNetworkTool.m in Sources */,
+				3753F2FD1CB4F469008CC0C4 /* HMHeadLineCell.m in Sources */,
+				375947E41CB7BD00005E8A97 /* HMHomeViewController.m in Sources */,
+				378969061CB6A81400727E33 /* HMNews.m in Sources */,
+				37917CDA1CB3A07F005A862D /* HMNewsViewController.m in Sources */,
+				375947DF1CB7B6E9005E8A97 /* HMNewsChannel.m in Sources */,
 				37917CA51CB38EB0005A862D /* main.m in Sources */,
+				375947DB1CB76347005E8A97 /* HMNewsCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +484,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		37917CAC1CB38EB0005A862D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				37917CAD1CB38EB0005A862D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		37917CB11CB38EB0005A862D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -409,6 +577,7 @@
 		};
 		37917CCE1CB38EB0005A862D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D100FD4A76AA04A2002A3FF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "new－wangyi/Info.plist";
@@ -420,6 +589,7 @@
 		};
 		37917CCF1CB38EB0005A862D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B60A0B1094B11FEA9EF769 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "new－wangyi/Info.plist";
@@ -496,6 +666,7 @@
 				37917CCF1CB38EB0005A862D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37917CD01CB38EB0005A862D /* Build configuration list for PBXNativeTarget "new－wangyiTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +675,7 @@
 				37917CD21CB38EB0005A862D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37917CD31CB38EB0005A862D /* Build configuration list for PBXNativeTarget "new－wangyiUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +684,7 @@
 				37917CD51CB38EB0005A862D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

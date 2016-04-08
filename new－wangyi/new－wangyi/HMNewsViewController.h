@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HMNewsViewController.h
 //  new－wangyi
 //
 //  Created by 大米 on 16/4/5.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HMNewsViewController : UIViewController
 
 @end
-
